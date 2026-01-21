@@ -4,8 +4,8 @@ a {
 }
 
 
-/*body*/
-/* .main {
+/* body*/
+.main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
@@ -13,7 +13,7 @@ a {
 
 .main div {
     border: 1px solid black;
-} */
+}
 
 p {
     text-align: center;
