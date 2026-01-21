@@ -1,31 +1,11 @@
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
-}
-
-li {
-    width: auto; 
-    border: 1px solid black;
-    padding: 10px;
-    list-style-type: none;
-}
-
-li:hover {
-    background-color: rgb(118, 118, 118);
-}
-
 a {
     text-decoration: none;
 
 }
 
-h1 {
-    text-align: center;
-}
 
 /*body*/
-.main {
+/* .main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
@@ -33,7 +13,7 @@ h1 {
 
 .main div {
     border: 1px solid black;
-}
+} */
 
 p {
     text-align: center;
