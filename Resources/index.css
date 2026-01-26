@@ -11,6 +11,24 @@ a {
     margin: auto;
 }
 
+.bottom-icons {
+  position: fixed;
+  bottom: -60px;
+  left: -95px;
+  z-index: 9999;                 
+  width: 400px;              
+  display: flex;             
+  gap: 10px;                
+  padding: 10px 0;          
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); 
+}
+
+.bottom-icon {
+  width: 400px;
+  display: block;
+  
+}
+
 .main div {
     border: 1px solid black;
 }
@@ -62,13 +80,19 @@ html {
   font-family: sans-serif;
 }
 
-/* Left */
 .header-left {
   text-align: left;
   font-weight: 600;
 }
 
-/* Center */
+.icon {
+  width: 24px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
 .header-center {
   text-align: center;
 }
@@ -80,7 +104,7 @@ html {
   font-weight: 500;
 }
 
-/* Right */
+
 .header-right {
   text-align: right;
   font-weight: 600;
