@@ -29,30 +29,6 @@
 
 <body>
 
-<script>
-var SPREADSHEET_ID = ""; 
-var TAB_NAME = "Sheet1";
-
-
-$(document).ready(function () {
- $.getJSON("https://opensheet.elk.sh/" + SPREADSHEET_ID + "/" + TAB_NAME, function (data) {
-  
-   console.log(data);
-  
-    data.forEach(function (entry, index) {
-    
-     console.log(entry);
-    
-     $(`<section>
-           <p>` + entry.ColumnName + `</p>
-           <p>` + entry.ColumnName + `</p>
-        </section>`)
-       .appendTo(".grid");
-   });
- }); 
-});
-</script>
-
   <div class="site-title">
    <img src="./images/website homepage title.png" alt="Thinking Critically Archive">
 </div>
@@ -64,20 +40,21 @@ $(document).ready(function () {
 </div>
  
 <div class="bottom-icons">
-  <a href="about.html">
-    <img src="./images/magnify.png" class="bottom-icon" id="magnify">
-  </a>
-  <a href="contact.html">
+  <a href="notepad.html">
     <img src="./images/notepad.png" class="bottom-icon" id="notepad">
   </a>
-  <a href="contact.html">
+   <a href="magnify.html">
+    <img src="./images/magnify.png" class="bottom-icon" id="magnify">
+  </a>
+  <a href="camera.html">
     <img src="./images/camera.png" class="bottom-icon" id="camera">
   </a>
-  <a href="contact.html">
+  <a href="pen.html">
+    <img src="./images/pen.png" class="bottom-icon" id="pen">
+  </a>
+  <a href="watch.html">
     <img src="./images/watch.png" class="bottom-icon" id="watch">
   </a>
-  <a href="contact.html">
-    <img src="./images/pen.png" class="bottom-icon" id="pen">
   </a>
 </div>
 
