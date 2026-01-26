@@ -11,22 +11,65 @@ a {
     margin: auto;
 }
 
-.bottom-icons {
-  position: fixed;
-  bottom: -60px;
-  left: -95px;
-  z-index: 9999;                 
-  width: 400px;              
-  display: flex;             
-  gap: 10px;                
-  padding: 10px 0;          
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); 
+#magnify {
+  bottom: -30px;
+  left: -70px; 
+  width: 350px;
+}
+
+#notepad {
+  bottom: -40px;
+  left: -5px;
+  width: 580px;
+}
+
+#camera {
+  bottom: -220px;
+  left: 590px;
+  width: 550px;
+}
+
+#watch {
+  bottom: -130px;
+  left: 1180px;
+  width: 320px;
+}
+
+#pen {
+  bottom: 150px;
+  right: -10px;
+  width: 200px;
 }
 
 .bottom-icon {
-  width: 400px;
+  width: 370px;
   display: block;
-  
+  Position: fixed;
+}
+
+.bottom-icons img:hover {
+  transform: scale(1.05);
+}
+
+#button {
+  width: 300px;
+ 
+}
+
+.buttonanimation img {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttonanimation:hover {
+  transform: scale(1.05);
+}
+
+.buttonanimation:active {
+  transform: scale(0.95);
 }
 
 .main div {
