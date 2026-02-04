@@ -137,9 +137,9 @@ html {
 .header-left {
   text-align: left;
   padding-top: 40px;
-  padding-left: 50px;
+  padding-left: 70px;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Kg No Regrets Sketch";
 }
 
@@ -156,6 +156,10 @@ html {
   top: 20px;
   right: 20px;
   cursor: pointer;
+}
+
+#about-link {
+  margin-right: 20px;
 }
 
 .header-center {

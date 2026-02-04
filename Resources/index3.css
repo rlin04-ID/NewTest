@@ -1,0 +1,26 @@
+.paragraph {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px; 
+  font-family: "Kg No Regrets Sketch";
+}
+
+@font-face {
+  font-family: "Kg No Regrets Sketch";
+  src: url("KgNoRegretsSketch-5rKZ.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+ background-image: url("thinking\ critically\ background\ .jpg");
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
